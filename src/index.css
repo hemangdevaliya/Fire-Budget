@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.alert{
+  
+  padding: 20px;
+margin: 20px;
+}
+h1{
+  text-align: center;
+}
+.form-group .form-control{
+
+width: 30%;
+
+}
+.form-group{
+  padding: 20px;
+
+}
+
+span{
+  font-weight: 600;
+margin-left: 25px;
+position: relative;
+
+}
+label{
+  font-weight: 600;
+}
+
+.btn-primary{
+ margin-left: 20px;
+}
+li{
+  list-style-type: none;
+  /* background:linear-gradient(45deg,rgb(229, 248, 255) 0%, rgb(255, 216, 222) 100%) !important;
+  height: 80px;
+  width: 17%;
+  box-shadow: 0 5px 20px lightgray !important; */
+/* padding: 15px;
+  margin: 3rem;
+  */
+
+}
+.badge {
+ 
+  margin: 15px;
+  list-style-type: none;
+  
+}
+
+
+p{
+  font-weight: 600;
+  margin: 20px;
+}
+
+.badge .badge-primary{
+  background-color: rgb(109, 109, 109);
+margin: 15px;
+}
+@media only screen and (max-width: 425px) {
+  .form-group .form-control{
+
+    width: 60%;
+    
+    }
+    li{
+      list-style-type: none;
+      background:linear-gradient(45deg,rgb(229, 248, 255) 0%, rgb(255, 216, 222) 100%) !important;
+      height: 80px;
+      width: 17%;
+      box-shadow: 0 5px 20px lightgray !important;
+    padding: 15px;
+      margin: 3rem;
+      
+      border-radius: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .form-group .form-control{
+  
+      width: 70%!important;
+      
+      }
+      li{
+        list-style-type: none;
+        background:linear-gradient(45deg,rgb(229, 248, 255) 0%, rgb(255, 216, 222) 100%) !important;
+        height: 80px;
+        width: 17%;
+        box-shadow: 0 5px 20px lightgray !important;
+      padding: 15px;
+        margin: 3rem;
+        
+        border-radius: 10px;
+      }
+    }
+
+.sign-up
+{
+  background-color: rgb(250, 250, 250);
+  height: max-content;
+  /* padding: 30px 80px 30px 80px; */
+  padding: 23px 200px 50px 51px;
+  border-radius: 10px;
+  width: max-content;
+
+  margin-bottom: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+
+}
+.form-group .form-control {
+  width: 70%;
+}
+.back-sign{
+ 
+  /* background: rgb(235,22,22);
+background: linear-gradient(321deg, rgba(235,22,22,1) 0%, rgba(245,181,255,1) 0%, rgba(251,148,180,1) 32%, rgba(255,127,131,1) 92%, rgba(255,126,128,1) 96%, rgba(255,125,126,1) 100%, rgba(255,124,124,1) 100%, rgba(0,212,255,1) 100%); */
+height: 100vh;
+
+background: linear-gradient(180deg, #ffa4b6 0%, #3F5EFB 120%);
+}
+.sign-head{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+
+
+
+.login
+{
+  background-color: rgb(250, 250, 250);
+  height: 47vh;
+  padding: 30px;
+  width: 40%;
+ border-radius: 15px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+.form-group .form-control {
+  width: 70%;
+}
+.back-login{
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+   height: 100vh;
+  margin: 0;
+
+}
+.login-head{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.d-flex{
+  padding: 25px;
+  margin-left: 20px;
+
+}
+
+
+
+.form-group .form-control {
+
+  width: 135%;
+  border-color: black;
+
+}
+
+.form-group .form-control-budget
+{
+  width: 30%;
+margin: 10px;
+  border: 1px solid gray;
+
+
+}
+
+.bg-budget{
+
+  background-image: url("pexels-tima-miroshnichenko-6693661.jpg");
+
+  /* Control the height of the image */
+  height: 600px;
+width: 600px;
+float: right;
+margin-right: 30px;
+margin-top: 30px;
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
