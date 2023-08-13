@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import '../index.css'
 import { useNavigate } from 'react-router-dom';
 import BudgetPlanner from './BudgetPlanner';
-
+import Backimg from '../pexels-pavel-danilyuk-7654579.jpg'
 import {db,auth2} from './config'
 
  
@@ -43,12 +43,16 @@ export default function Login() {
 
 
   return (
-    <div className='back-login'>
-    <h1 className='login-head'> Login </h1>
+ 
+
+    
+    <div  style={{backgroundColor:'lightcoral'}}>
+       <img src={Backimg} className='bg-img'></img>
 
 
 
 <form className='login'>
+<h1 className='login-head'> Login </h1>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>&nbsp;&nbsp;
     <br></br>
