@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import '../index.css'
 import { useNavigate } from 'react-router-dom';
 import BudgetPlanner from './BudgetPlanner';
-import Backimg from '../pexels-pavel-danilyuk-7654579.jpg'
+import Backimg from '../Components/sign-up-image1_300.jpg'
 import {db,auth2} from './config'
 
  

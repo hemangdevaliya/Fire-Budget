@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import '../index.css'
+
 import { db, auth2 } from './config'
 import { useNavigate } from 'react-router-dom';
-import Backimg from '../pexels-pavel-danilyuk-7654579.jpg'
+import Backimg from '../Components/sign-up-image1_300.jpg'
 export default function Signup2() {
 
 
@@ -87,7 +88,7 @@ export default function Signup2() {
     <>
 
       <div className='back-sign'>
-       <img src={Backimg} className='bg-img'></img>
+       <img src={Backimg} className='bg-img' alt='Backgorud image'/>
         {/* <h1 className='sign-head'> Sign Up </h1> */}
     
 
@@ -103,13 +104,13 @@ export default function Signup2() {
             <span>{validate.nameError}</span>
           </div>
 
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" />
             <span>{validate.emailError}</span>
 
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
             <span>{validate.passwordError}</span>
